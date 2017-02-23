@@ -1,3 +1,13 @@
-table, th, td {
+table, th, tr, td {
     border: 1px solid black;
+}
+
+#dogfood-list1 {
+  width: 30%;
+  float: left;
+}
+
+#dogfood-list2 {
+  width: 30%;
+  float: right;
 }
