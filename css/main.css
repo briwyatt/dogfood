@@ -3,11 +3,21 @@ table, th, tr, td {
 }
 
 #dogfood-list1 {
-  width: 30%;
+  width: 200px;
   float: left;
+  max-height: 400px;
 }
 
 #dogfood-list2 {
-  width: 30%;
-  float: right;
+  width: 200px;
+}
+
+#catfood-list1 {
+  width: 200px;
+  float: left;
+  max-height: 400px;
+}
+
+#catfood-list2 {
+  width: 200px;
 }

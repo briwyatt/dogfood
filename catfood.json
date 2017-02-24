@@ -1,73 +1,67 @@
 {
-  "Brand" : [
+  "Brands": [
     {
-      "name": "Purrina",
-      "Breeds": ["Siamese", "Bengal", "Snowshoe", "Munchkin"],
-      "types": [
-        {
-          "type": "kitten",
-          "volumes":[
-          {
-          "name": "20 oz",
-          "price": 19.99
-          },
-          {
-          "name": "32 oz",
-          "price": 26.99
-          },
-          {
-          "name": "64 oz",
-          "price": 34.99
-          }
-          ]
-        },
-        {
-          "type": "elite",
-          "volumes": [
-             {
-          "name": "20 oz",
-          "price": 24.99
-          },
-          {
-          "name": "40 oz",
-          "price": 47.99
-          }
-          ]
-          }
-        ]
-        },
-        {
-      "name": "Meow Meal",
-      "Breeds": ["Manx", "Egyptian Mau", "Himalayan", "Rag Doll"],
-      "types": [
-          {
-          "type": "kitten",
-          "volumes": [
-            {
-              "name": "24oz",
-              "price": 19.99
-            },
-            {
-              "name": "48oz",
-              "price": 34.99
-            },
-            {
-          "type": "adult",
-          "volumes": [
-            {
-              "name": "28oz",
-              "price": 22.99
-            },
-            {
-              "name": "56oz",
-              "price": 40.99
-            }
-          ]
-        }
-      ]
-        }
-      ]
+    "name": "Purrina",
+    "Breeds": ["Siamese", "Bengal", "Snowshoe", "Munchkin"],
+    "types": [{
+      "type": "Kitten",
+      "volumes": [{
+        "name": "20 oz",
+        "price": 19.99
+      }, 
+      {
+        "name": "32 oz",
+        "price": 26.99
+      }, 
+      {
+        "name": "64 oz",
+        "price": 34.99
+      }
+    ]
+    }, 
+    {
+      "type": "Elite",
+      "volumes": [{
+        "name": "20 oz",
+        "price": 24.99
+      }, {
+        "name": "40 oz",
+        "price": 47.99
+      }
+    ]
     }
   ]
+  }, 
+  {
+    "name": "Meow Meal",
+    "Breeds": ["Manx", "Egyptian Mau", "Himalayan", "Rag Doll"],
+    "types": [
+      {
+      "type": "Kitten",
+      "volumes": [
+        {
+        "name": "24oz",
+        "price": 19.99
+      },
+       {
+        "name": "48oz",
+        "price": 34.99
+      }
+    ]
+    }, 
+    {
+      "type": "adult",
+      "volumes": [{
+        "name": "28oz",
+        "price": 22.99
+      }, 
+      {
+        "name": "56oz",
+        "price": 40.99
+      }
+    ]
+    }
+  ]
+  }
+]
 }
-
